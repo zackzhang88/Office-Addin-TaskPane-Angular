@@ -1,12 +1,12 @@
 import { Component } from "@angular/core";
-const template = require("./app.component.html");
+const template = require("./function-test.component.html");
 /* global console, Excel, require */
 
 @Component({
-  selector: "app-home",
+  selector: "app-function-test",
   template
 })
-export default class AppComponent {
+export class FunctionTestComponent {
   welcomeMessage = "Welcome";
 
   async run() {

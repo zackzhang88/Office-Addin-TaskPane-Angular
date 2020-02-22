@@ -25,4 +25,17 @@
         <span class="ms-Button-label">Run</span>
         <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
     </div>
+    <div role="button" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20" (click)="go()">
+        <span class="ms-Button-label">Go</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </div>
+    <div>
+        <a class="nav-link" [routerLink]="/project-assignment">project assignment</a>
+    </div>
+    <div>
+        <a class="nav-link" [routerLink]="/function-test">function test</a>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
 </main>
